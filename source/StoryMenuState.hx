@@ -32,7 +32,8 @@ class StoryMenuState extends MusicBeatState
 		true,	//Week 3
 		true,	//Week 4
 		true,	//Week 5
-		true	//Week 6
+		true,	//Week 6
+		true
 	];
 
 	//It works like this:
@@ -44,7 +45,8 @@ class StoryMenuState extends MusicBeatState
 		['pico', 'bf', 'gf'],
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
-		['senpai', 'bf', 'gf']
+		['senpai', 'bf', 'gf'],
+		['dad', 'bf', 'gf']
 	];
 
 	//The week's name, displayed on top-right
@@ -55,7 +57,8 @@ class StoryMenuState extends MusicBeatState
 		"PICO",
 		"MOMMY MUST MURDER",
 		"RED SNOW",
-		"hating simulator ft. moawling"
+		"hating simulator ft. moawling",
+		"Hello There Fun people"
 	];
 
 	//Background asset name, the background files are stored on assets/preload/menubackgrounds/
@@ -66,7 +69,8 @@ class StoryMenuState extends MusicBeatState
 		'philly',
 		'limo',
 		'christmas',
-		'school'
+		'school',
+		'stage'
 	];
 	
 	var scoreText:FlxText;
